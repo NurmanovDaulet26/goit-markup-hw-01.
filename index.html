@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Студія</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <a class="logo" href="index.html">WebStudio</a>
+        <div class="header_inner">
+        <a class="logo" href="index.html"><span class="blue_logo">Web</span>Studio</a>
         <nav class="menu">
           <ul class="menu_list">
             <li class="menu__list-item">
               <a class="menu__list-link" href="index.html">Студія</a>
             </li>
             <li class="menu__list-item">
-              <a class="menu__list-link" href="index.html">Портфоліо</a>
+              <a class="menu__list-link" href="portfolio.html">Портфоліо</a>
             </li>
             <li class="menu__list-item">
               <a class="menu__list-link" href="index.html">Контакти</a>
@@ -31,10 +36,11 @@
             <a class="contacts_link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
+        </div>
       </div>
     </header>
     <main>
-      <section>
+      <section class="section">
         <h1 class="main_title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="main_btn">Замовити послугу</button>
       </section>
@@ -42,27 +48,27 @@
         <ul class="main_features">
           <li class="features">
             <h3 class="main_features_title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+            <p class="features_text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li class="features">
             <h3 class="main_features_title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+            <p class="features_text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li class="features">
             <h3 class="main_features_title">ПЛАНУВАННЯ</h3>
-            <p>
+            <p class="features_text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li class="features">
             <h3 class="main_features_title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+            <p class="features_text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -70,7 +76,7 @@
         </ul>
       </section>
       <section class="work">
-        <h2>Чим ми займаємося</h2>
+        <h2 class="work_title">Чим ми займаємося</h2>
         <ul class="work_img">
           <li>
             <img
@@ -102,7 +108,7 @@
         </ul>
       </section>
       <section class="team">
-        <h2>Наша команда</h2>
+        <h2 class="team_title">Наша команда</h2>
         <ul class="our_team">
           <li class="our_team-card">
             <img
@@ -112,8 +118,7 @@
               height="368"
               alt="Product Designer"
              >
-            <h3>Ігор Дем'яненко</h3>
-            <p>Product Designer</p>
+            
           </li>
           <li class="our_team-card">
             <img
@@ -123,8 +128,6 @@
               height="368"
               alt="Frontend Developer"
              >
-            <h3>Ольга Рєпіна</h3>
-            <p>Frontend Developer</p>
           </li>
           <li class="our_team-card">
             <img
@@ -133,9 +136,7 @@
               width="270"
               height="368"
               alt="Marketing"
-             >
-            <h3>Микола Тарасов</h3>
-            <p>Marketing</p>
+              >
           </li>
           <li class="our_team-card">
             <img
@@ -144,19 +145,17 @@
               width="270"
               height="368"
               alt="UI Designer"
-             >
-            <h3>Михайло Єрмаков</h3>
-            <p>UI Designer</p>
+              >
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a class="logo" href="index.html">WebStudio</a>
-      <address>
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <a class="contacts_link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="contacts_link" href="tel:+380961111111">+38 096 111 11 11</a>
+    <footer class="footer">
+      <address class="address">
+        <a class="logo_footer" href="index.html"><span class="blue_logo">Web</span>Studio</a>
+        <p class="address_link">м. Київ, пр-т Лесі Українки, 26</p>
+        <a class="email_link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="phone_link" href="tel:+380961111111">+38 096 111 11 11</a>
       </address>
     </footer>
   </body>
